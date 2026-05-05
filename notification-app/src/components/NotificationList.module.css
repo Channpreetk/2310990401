@@ -1,0 +1,81 @@
+.card {
+  background: #fff;
+  border: 1px solid #dac9af;
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 10px 30px #d2c0a826;
+}
+
+.headerRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 14px;
+}
+
+.headerRow h2 {
+  font-family: var(--font-heading), sans-serif;
+  color: #263526;
+  font-size: 1.25rem;
+}
+
+.headerRow span {
+  color: #526157;
+  font-size: 0.9rem;
+}
+
+.empty {
+  color: #5d6054;
+}
+
+.list {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.list li {
+  border: 1px solid #e8d8be;
+  border-radius: 12px;
+  padding: 12px;
+  background: #fffefa;
+}
+
+.read {
+  opacity: 0.72;
+}
+
+.unread {
+  border-left: 5px solid #da8f2a;
+}
+
+.badges {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.badges span {
+  font-size: 0.72rem;
+  border-radius: 999px;
+  border: 1px solid #d6c3a8;
+  background: #fff8ef;
+  padding: 2px 8px;
+}
+
+.list h3 {
+  color: #2d3025;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.list p {
+  color: #4f5348;
+  margin-bottom: 7px;
+}
+
+.list small {
+  color: #6e695e;
+}
